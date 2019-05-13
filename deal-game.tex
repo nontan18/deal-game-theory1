@@ -140,7 +140,7 @@
   \item[$s^{seller}_1$]… 正当な行為を行う
   \item[$s^{seller}_2$]… 不正な行為を行う
   \item[$s^{buyer}_1$]… $ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合は「失敗」を報告する
-  \item[$s^{buyer}_2$]… $ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合は「失敗」を報告する
+  \item[$s^{buyer}_2$]… $ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合は「成功」を報告する
   \item[$s^{buyer}_3$]… $ seller$が正当な行為をとった場合は「失敗」を，不正な行動をとった場合は「失敗」を報告する
   \item[$s^{buyer}_4$]… $ seller$が正当な行為をとった場合は「失敗」を，不正な行動をとった場合は「成功」を報告する
 \end{description}
@@ -148,8 +148,8 @@
 % $s^{seller}_1$…「正当な行為を行う」\\
 % $s^{seller}_2$…「不正な行為を行う」\\
 % $s^{buyer}_1$ …「$ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合は「失敗」を報告する」\\
-% $s^{buyer}_2$ …「$ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合は「成功」を報告する」\\
-% $ s^{buyer}_3$ …「$ seller$が正当な行為をとった場合は「失敗」を，不正な行動をとった場合は「失敗」を報告する」\\
+% $s^{buyer}_2$ …「$ seller$が正当な行為をとった場合は「成功」を，不正な行動をとった場合も「成功」を報告する」\\
+% $ s^{buyer}_3$ …「$ seller$が正当な行為をとった場合は「失敗」を，不正な行動をとった場合も「失敗」を報告する」\\
 % $ s^{buyer}_4$ …「$ seller$が正当な行為をとった場合は「失敗」を，不正な行動をとった場合は「成功」を報告する」\\
 
 また，商取引終了時の$ player$の保有する通貨量の変化によって生じる利得を，第4ステップでの報告が「成功」だった場合は$ r^{player}_{success}$，「失敗」だった場合は$ r^{player}_{failure}$とし，商品の所有によって生じる利得を$ goods$と表す．
@@ -284,10 +284,10 @@ $\therefore p^{seller}_2 (r^{buyer}_{failure} - r^{buyer}_{success}) > 0$ \\
 
 $ E(R|s^{buyer}_1) > E(R|s^{buyer}_3)$ \\
 
-$ p^{seller}_1(goods + r^{buyer}_{success}) + p^{seller}_2r^{buyer}_{failure}>
+$ \therefore p^{seller}_1(goods + r^{buyer}_{success}) + p^{seller}_2r^{buyer}_{failure}>
   p^{seller}_1(goods + r^{buyer}_{failure}) + p^{seller}_2r^{buyer}_{failure}$\\
 
-$ p^{seller}_1 (r^{bueyer}_{success} - r^{buyer}_{failure}) > 0$\\
+$ \therefore p^{seller}_1 (r^{bueyer}_{success} - r^{buyer}_{failure}) > 0$\\
 
 つまり，$ p^{seller}_1 > 0$ かつ $r^{bueyer}_{success} - r^{buyer}_{failure} > 0$\\
 
